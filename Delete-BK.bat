@@ -1,0 +1,1 @@
+forfiles /p "C:\Backups\SinComprimir" /s /m *.bak /d -10 /c "cmd /c del @path"
